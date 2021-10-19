@@ -28,6 +28,21 @@ void printMatrix(double** matrix)
     }
 }
 
+void MultiplyMatrix(double** matrixOne, double** matrixTwo, double** resultMatrix)
+{
+
+    for (int i = 0; i < matrix_size; i++)
+    {
+        for (int j = 0; j < matrix_size; j++)
+        {
+            for (int k = 0; k < matrix_size; k++)
+            {
+                resultMatrix[i][j] += matrixOne[i][k] * matrixTwo[k][j];
+            }
+        }
+    }
+}
+
 int main()
 {
     cout << "Input matrix size: ";
