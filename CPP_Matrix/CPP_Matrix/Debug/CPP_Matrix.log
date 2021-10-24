@@ -1,3 +1,3 @@
 ﻿  CPP_Matrix.cpp
-C:\Users\User\Documents\GitHub\CPP_Matrix\CPP_Matrix\CPP_Matrix\CPP_Matrix.cpp(44): warning C4717: main: рекурсия на всех путях выполнения, функция вызовет переполнение стека
+C:\Users\User\Documents\GitHub\CPP_Matrix\CPP_Matrix\CPP_Matrix\CPP_Matrix.cpp(147): warning C4717: main: рекурсия на всех путях выполнения, функция вызовет переполнение стека
   CPP_Matrix.vcxproj -> C:\Users\User\Documents\GitHub\CPP_Matrix\CPP_Matrix\Debug\CPP_Matrix.exe
