@@ -47,7 +47,7 @@ void MultiplyMatrix(double** matrixOne, double** matrixTwo, double** resultMatri
 
 void ParallelMultiplyMatrix(double** matrixOne, double** matrixTwo, double** resultMatrix)
 {
-#pragma omp parallel for num_threads(4)
+    #pragma omp parallel for num_threads(4)
     for (int i = 0; i < matrix_size; i++)
     {
         for (int j = 0; j < matrix_size; j++)
